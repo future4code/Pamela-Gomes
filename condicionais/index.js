@@ -18,13 +18,9 @@
 /* c. Considere que um usuário queira comprar uma `Pêra`, qual seria a mensagem impressa no console se retirássemos o
  `break` que está logo acima do `default` (o `break` indicado pelo comentário "BREAK PARA O ITEM c.")? */
  //nao sei.
-
-
 //EXERCÍCIO 3//
 
 //a. O que a primeira linha está fazendo?
-
-
 
 //////////Exercícios de escrita de código//////
 
@@ -41,29 +37,29 @@ if(numero < 59 === 60) {
 
 //EXERCÍCIO 5//
 
-
-/* const respostaDousuario = prompt(" Em que turo do dia você estudo ?. M (Matutino) para V (Verpertino) ou N (Noturno) :)")
-
-if((respostaDousuario = M) ){
+ const respostaDousuario = prompt('Em que turo do dia você estuda ?.M (Matutino) V para (Verpertino) ou N (Noturno)')
+if((respostaDousuario = M)){
   console.log("Bom dia!.")
-} {
-  console.log("Você não pode dirigir.")
-}  */
-
+}else{}
+if((respostaDousuario = V)){
+ console.log("Boa Tarde!.")
+}else{} 
+if((respostaDousuario = N)){
+  console.log("Boa Noite!.")
+} 
 
 //EXERCÍCIO 6
 
-
-/* let turno = prompt("Em que turo do dia você estudo?. M (matutino) ou V (Vespertino) ou N (Noturno)")
-let mensagem
+/* const turno = prompt("Em que turo do dia você estudo?. M (matutino) ou V (Vespertino) ou N (Noturno)")
 switch (turno) {
+
   case "M":
+    console.log("Bom dia!", turno)
    
     break;
   case "V":
-    
+    console.log("Boa Tarde!", turno)
     break;
   case "N":
-    
-}
-console.log( "Bom Dia! ", turno )  */
+    console.log("Boa Noite!", turno)
+}  */
