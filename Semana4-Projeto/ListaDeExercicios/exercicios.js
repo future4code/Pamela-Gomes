@@ -16,16 +16,16 @@ return arrayInvertidos
  com os números pares elevados a 2 */
 
  function retornaNumerosParesElevadosADois (array){
-    let paresElevados = array.filter((numero)=>{
+   let retornaNumerosParesElevadosADois = array.filter((numero)=>{
       if (numero%2 ===0){
          return true
       }
 
    }) 
-   for (let i = 0; i < paresElevados.length; i++){
-      paresElevados[i] = paresElevados[i]**2
+   for (let i = 0; i < retornaNumerosParesElevadosADois.length; i++){
+      retornaNumerosParesElevadosADois[i] = retornaNumerosParesElevadosADois[i]**2
    }
-   return paresElevados
+   return retornaNumerosParesElevadosADois
 
 }  
   
@@ -34,14 +34,13 @@ return arrayInvertidos
  com apenas os números pares desse array de entrada */
 
 function retornaNumerosPares (array) {
-    let retornarPares = array.filter((numero) =>{
-      if(numero%2 ==0){
-         return true
+   let novoArray = [];
+   for(leti = 0; i < array.length; i++) {
+    if(array[i] %2 === 0) {
+         novoArray.push(array[i])
       }
-
-   })
-   return pares
-   
+   }
+   return novoArray
 }
 
 // TENTAR MAIS TARDE
@@ -50,37 +49,32 @@ function retornaNumerosPares (array) {
 /* Escreva uma função que receba um array de números e retorne o maior número dele. */
 
 function retornaMaiorNumero(array) {
-  let maior = array[0];
-  for (let numero of array) {
-     if(maior > numero){
-        maior = numero;
+   let maiorNumero = array[0];
+   for(leti = 0; i < array.length; i++) {
+   if(maiorNumero < array[i]) {
+         maiorNumero = array[i]
+       }
      }
-     
-  }
-  return maior;
+   return maiorNumero
+   
 }
 
 //Exercício 5
 /* Escreva uma função que recebe um array como parâmetro e retorna a quantidade de elementos que há nele. */
 
 function retornaQuantidadeElementos (array) {
-   let elementos = array[0];
-   for (let elementos of array){
-      if(numero =""){
-         numero = ""
-
+   function retornaQuantidadeElementos(array) {
+      return array.length
       }
-   
-   }
-   return elementos
   
 }
 
 //Exercício 6
 /*  */
 
-function retornaExpressoesBooleanas() {  //////////////////////////////////////////// 
-   // implemente sua lógica aqui
+function retornaExpressoesBooleanas() {  
+   const respostas = [true, true, true, true, false]   
+   return respostas
 }
 
 //Exercício 7
