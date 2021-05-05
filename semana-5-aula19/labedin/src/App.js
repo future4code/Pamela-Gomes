@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
-import CardPequeno from './components/CardPequeno/CardPequeno';
 import ImagemPerfil from './components/img/eu.jpg';
 import Emailfoto from './components/img/gmail.png';
 import Prof from './components/img/índice.png';
@@ -19,7 +18,8 @@ function App() {
           nome="Pamela Rane" 
           descricao="Oi, eu sou Pamela Rane. Estou fazer uma mudança radical de carreira sou estudante na Labenu."
         />
-
+        
+      
         <ImagemButton 
           imagem="https://image.flaticon.com/icons/png/512/117/117472.png" 
           texto="Ver mais"
@@ -27,9 +27,7 @@ function App() {
       
       </div>
 
-      
-
-      <div className="page-section-container">
+        <div className="page-section-container">
         <h2>Experiências profissionais</h2>
         <CardGrande 
           imagem="https://png.pngtree.com/png-clipart/20200727/original/pngtree-pizza-logo-or-label-pizzeria-food-concept-vector-png-image_5305137.jpg" 
