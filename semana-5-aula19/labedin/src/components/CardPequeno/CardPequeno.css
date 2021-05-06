@@ -1,0 +1,24 @@
+.page-little {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(223, 11, 11);
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    height: 100px;
+}
+
+.page-little >image  {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.page-little  {
+    margin-bottom: 10px;
+}
+
+.page-little > div {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+}
