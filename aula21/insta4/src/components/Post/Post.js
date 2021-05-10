@@ -9,6 +9,7 @@ import iconeCoracaoPreto from '../../img/favorite.svg'
 import iconeComentario from '../../img/comment_icon.svg'
 import {SecaoComentario} from '../SecaoComentario/SecaoComentario'
 import FotoPerfil from '../../img/eu.jpg'
+import iconeenviar from '../../img/enviar.png';
 
 
 
@@ -83,6 +84,9 @@ class Post extends React.Component {
         onClickIcone={this.onClickComentario}
         valorContador={this.state.numeroComentarios}
       />
+
+
+
     </div>
     {componenteComentario}
   </div>
