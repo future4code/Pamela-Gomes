@@ -67,12 +67,19 @@ class App extends React.Component {
       completa: false
 
     }
-    const tarefasnovas = [novaTarefas, ... this.state.tarefas]
+    const tarefasNovas = [novaTarefas, ... this.state.tarefas]
 
-    this.setState({tarefa: tarefasnovas})
+    this.setState({novaTarefas: tarefasNovas})
   }
 
   selectTarefa = (id) => {
+    const tarefaselect = this.state.tarefas.filter((select) => {
+
+
+
+
+    })
+
 
   }
 
