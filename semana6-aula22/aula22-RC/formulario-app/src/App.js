@@ -6,11 +6,11 @@ import React from "react";
 
 export default class App extends React.Component {
   state = {
-    pagina: "pagina incial"
+    pagina: "Etapa1"
   };
 
-  Etapa2 = () => {
-    if (this.state.pagina === "Etapa2") {
+  trocasdepagina = () => {
+    if (this.state.pagina === "Etap2") {
       this.setState({ pagina: "Etapa1" });
     } else if (this.state.pagina === "Etapa1") {
       this.setState({ pagina: "Etapa2" });
@@ -18,6 +18,7 @@ export default class App extends React.Component {
   };
 
   render() {
+    
     const renderizaPagina = () => {
       if (this.state.pagina === "Etapa2") {
         return <Etapa2 bananinha={this.trocaDePagina} />;
